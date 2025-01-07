@@ -23,7 +23,7 @@ h1{
 
 /* INTRODUCTION PROPERTY OF DISPLAY */
 
-div{
+/* div{
     background-color: aqua;
     width: 100px;
     height: 100px;
@@ -36,4 +36,17 @@ span{
     height: 100px;
     display: inline-block;
 
+} */
+
+.box{
+    background-color: aqua;
+    border: 2px double red;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    /* max-width: 25%; */
+    min-width: 75%;
 }
