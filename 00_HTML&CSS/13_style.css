@@ -1,0 +1,39 @@
+h1{
+    color: aqua;
+    border-style: dashed;
+    border-radius: 8px;
+}
+
+
+/* overflow */
+/* 
+    div{
+    border: 3px solid;
+    border-radius: 8px;
+    height: 75px;
+    overflow: visible;
+    overflow: hidden;
+    overflow: clip;
+    overflow-clip-margin: 13px;
+    overflow: scroll;
+    overflow: auto;
+} 
+*/
+
+
+/* INTRODUCTION PROPERTY OF DISPLAY */
+
+div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+span{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
