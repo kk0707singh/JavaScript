@@ -27,9 +27,40 @@ explains the relationship between listed selectors
 ~ = general sibling
 + = adjecent sibling */
 
-#container{
+/* #container{
     border: 3px solid;
 }
 #container>p{
     background-color: aquamarine;
+} */
+
+a:link{
+    color: rgb(124, 214, 123);
+    }
+    a:hover{
+        color: aquamarine;
+        font-size: 1.1em;
+    }
+    a:active{
+        color: red;
+    }
+    a:visited{
+        color: grey;
+    }
+
+li:hover{
+    background-color: rgb(209, 244, 140);
+}
+
+li:not(:hover){
+    background-color: rgb(181, 170, 230);
+}
+
+li:nth-child(odd){
+    color: rgb(54, 137, 110);
+}
+
+#greeting p{
+    background-color: rgb(29, 7, 69);
+    padding: 10px;
 }

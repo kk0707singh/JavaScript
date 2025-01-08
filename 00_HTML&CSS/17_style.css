@@ -1,0 +1,83 @@
+/* a:link{
+    color: rgb(21, 128, 19);
+    }
+    a:hover{
+        color: aquamarine;
+        font-size: 1.1em;
+    }
+    a:active{
+        color: red;
+    } */
+    /* a:visited{
+        color: grey;
+    } */
+
+/* li:hover{
+    background-color: rgb(209, 244, 140);
+}
+
+li:not(:hover){
+    background-color: rgb(181, 170, 230);
+}
+
+li:nth-child(odd){
+    color: rgb(54, 137, 110);
+}
+
+#Greeting p{
+    background-color: rgb(29, 7, 69);
+    padding: 50px;
+    display: none;
+} */
+
+/* #Greeting:hover p{
+    display: block;
+    
+
+} */
+
+
+/* pseudo elements */
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p::first-line{
+    background-color: aqua;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p::selection{
+    color: aqua;
+    background-color: brown;
+}
+
+
+#fruit li::before{
+    content: "✔️";
+}
+
+#apple::after{
+    content: "🍎";
+}
+
+#orange::after{
+    content: "🍊";
+}
+
+#banana::after{
+    content: "🍌";
+}
+
+#fruit li::marker{
+    content: "✅";
+    color: aqua;
+}
+
+#fruit li::selection{
+    color: aqua;
+    background-color: brown;
+}
