@@ -1,0 +1,35 @@
+/* background image */
+
+/* 
+    h2{
+    border: 3px solid;
+    text-align: center;
+}
+
+body{
+    background-image: url(/00_HTML&CSS/ImgVid/pexels-maxfrancis-2246476.jpg);
+    background-image: url(ImgVid/background-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+
+
+
+
+/* combinators in css 
+
+explains the relationship between listed selectors
+(space) = descendant
+> = child
+~ = general sibling
++ = adjecent sibling */
+
+#container{
+    border: 3px solid;
+}
+#container>p{
+    background-color: aquamarine;
+}

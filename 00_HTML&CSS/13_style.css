@@ -38,6 +38,13 @@ span{
 
 } */
 
+
+
+
+
+/* width and height property in css */
+
+
 .box{
     background-color: aqua;
     border: 2px double red;
@@ -47,6 +54,62 @@ span{
     width: 50%;
     float: left;
     text-align: center;
+    /* position: relative;
+    top: 100px;
+    left: 100px; */
     /* max-width: 25%; */
     min-width: 75%;
+}
+
+
+
+/* position in css */
+
+/* 01 RELETIVE */
+
+/* #box1{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    top: 100px;       moves box to down
+    left: 100px;      move box to right
+
+
+} */
+
+/* 02 FIXED POSITION */
+/* 
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    
+} */
+
+/* absolute position */
+
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    
+}
+
+
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
 }
