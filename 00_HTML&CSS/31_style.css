@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 5px solid;
+    border-radius: 20px;
+    font-size: 8em;
+    text-align: center;
+
+    transform: translateX(100px) rotateZ(45deg) skew(35deg);
+}
+
+#box1{
+    background-color: rgb(183, 140, 224);
+    /* transform: translate(50%, 50%); */
+    /* transform: rotateX(180deg); */
+    /* transform: rotateZ(135deg); */
+    /* transform: scale(1.1, 1.1); */
+    /* transform: skew(35deg); */
+    /* transform: translateX(100%) rotate(45deg) scale(0.5) skew(35deg); */
+    
+    
+}
+
+
+#box2{
+    background-color: brown;
+}
+
+#box3{
+    background-color: rgb(46, 77, 61);
+}
+
+
+img{
+    height: 100px;
+    width: 100px;
+    transform: translate(100%) rotate(45deg) scale(2%);
+}
