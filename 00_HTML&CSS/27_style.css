@@ -1,0 +1,22 @@
+.icons{
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    /* padding: 10px; */
+    margin-right: 20px;
+}
+
+fa-solid.fa-house.fa-5x{
+    color: hsl(160, 8%, 29%);
+}
+
+
+fa-solid.fa-house.fa-5x:hover{
+    color: hsl(160, 8%, 76%);
+}
+
+fa-brands.fa-twitter.fa-5x{
+    color: blueviolet;
+}
