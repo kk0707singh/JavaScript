@@ -12,11 +12,51 @@
     </ul>
 </body>
 <script>
-    const addLi = document.querySelector('.language')
-    console.log(addLi);
-    const newAddLi = document.createElement('li')
-    newAddLi.innerText = 'python';
-    addli.appendChild(".language");
+
+    // yha pe puraa puraa tree traversh krna pdega
+    function addLang(LangName) {
+        const li = document.createElement("li");
+        li.innerHTML = `${LangName}`
+        document.querySelector(".language").appendChild(li)
+    }
+    addLang("javaC")
+    addLang("typeScript ")
+
+    function optLang(LangName) {
+        const li = document.createElement("li");
+        li.appendChild(document.createTextNode(LangName))
+        document.querySelector(".language").appendChild(li)
+    }
+    optLang("flutter")
+
+
+    // edit
+    const secondLang = document.querySelector("li:nth-child(2)");
+    const newLi = document.createElement("li")
+    newLi.textContent = "mojo"
+    secondLang.replaceWith(newLi)
+
+
+    // edit
+    const thirdLang = document.querySelector('li:nth-child(1)')
+    const newList = document.createElement('li');
+    newList.textContent = "bootstrap"
+    thirdLang.replaceWith(newList)
+
+
+
+
+    // last tareeka
+
+    const firstLanguage = document.querySelector('li:nth-child(1)')
+    firstLanguage.outerHTML = '<li>typeConst</li>'
+
+
+
+    // remove
+
+    const LastLang = document.querySelector('li:nth-child(4)')
+    LastLang.remove()
 
 
 </script>
